@@ -1,0 +1,19 @@
+.filters-bar {
+  background: #fff; border-bottom: 1px solid #E5E7EB;
+  padding: 14px 0; position: sticky; top: 70px; z-index: 100;
+}
+.filters-inner { display: flex; gap: 10px; flex-wrap: wrap; }
+
+.courses-grid {
+  display: grid; grid-template-columns: repeat(3,1fr); gap: 24px;
+}
+
+.empty-state {
+  text-align: center; padding: 80px 0; color: #6B7280;
+}
+.empty-icon { font-size: 3rem; margin-bottom: 16px; }
+.empty-state h3 { font-size: 1.2rem; font-weight: 700; margin-bottom: 8px; color: #111827; }
+.empty-state p { font-size: 0.9rem; }
+
+@media (max-width: 900px) { .courses-grid { grid-template-columns: repeat(2,1fr); } }
+@media (max-width: 600px) { .courses-grid { grid-template-columns: 1fr; } }

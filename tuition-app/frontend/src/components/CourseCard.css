@@ -1,0 +1,19 @@
+.course-card { overflow: hidden; }
+.course-header { padding: 22px 22px 0; }
+.course-header h3 { font-size: 1.1rem; font-weight: 700; margin-bottom: 6px; color: #111827; }
+.course-header p { font-size: 0.87rem; color: #6B7280; line-height: 1.6; }
+
+.course-meta {
+  padding: 14px 22px; display: flex; gap: 10px; flex-wrap: wrap;
+}
+.meta-chip { font-size: 0.8rem; color: #6B7280; font-weight: 500; }
+
+.course-footer {
+  border-top: 1px solid #E5E7EB; padding: 14px 22px;
+  display: flex; align-items: center; justify-content: space-between;
+}
+.course-fee {
+  font-family: 'Poppins', sans-serif; font-weight: 800;
+  font-size: 1.15rem; color: #4F46E5;
+}
+.course-fee span { font-size: 0.75rem; font-weight: 500; color: #6B7280; }

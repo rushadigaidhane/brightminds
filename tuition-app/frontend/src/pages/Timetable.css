@@ -1,0 +1,41 @@
+.timetable-wrap { overflow-x: auto; border-radius: 16px; box-shadow: 0 4px 24px rgba(79,70,229,0.08); }
+.timetable { width: 100%; border-collapse: collapse; background: #fff; min-width: 700px; }
+
+.timetable thead th {
+  background: #4F46E5; color: #fff; padding: 14px 16px;
+  font-family: 'Poppins', sans-serif; font-weight: 600;
+  font-size: 0.87rem; text-align: left; white-space: nowrap;
+}
+.timetable tbody tr:nth-child(even) { background: #F9FAFB; }
+.timetable tbody td {
+  padding: 13px 16px; font-size: 0.85rem;
+  border-bottom: 1px solid #E5E7EB; vertical-align: middle;
+}
+.time-col {
+  font-weight: 700; color: #4F46E5;
+  font-family: 'Poppins', sans-serif; white-space: nowrap;
+}
+
+.class-chip {
+  display: inline-block; padding: 4px 10px;
+  border-radius: 6px; font-size: 0.78rem; font-weight: 700;
+  white-space: nowrap;
+}
+.chip-math  { background: rgba(79,70,229,0.12); color: #4F46E5; }
+.chip-sci   { background: rgba(34,197,94,0.12);  color: #16A34A; }
+.chip-eng   { background: rgba(245,158,11,0.12); color: #D97706; }
+.chip-jee   { background: rgba(244,63,94,0.1);   color: #E11D48; }
+.chip-neet  { background: rgba(168,85,247,0.1);  color: #7C3AED; }
+.chip-empty { color: #9CA3AF; font-weight: 500; }
+
+.legend {
+  display: flex; align-items: center; gap: 12px;
+  flex-wrap: wrap; margin-top: 20px;
+}
+.legend-label { font-size: 0.82rem; color: #6B7280; font-weight: 600; }
+
+.timetable-note {
+  background: #FFF7ED; border: 1.5px solid #FDE68A;
+  border-radius: 12px; padding: 14px 20px; margin-top: 20px;
+  font-size: 0.85rem; color: #92400E;
+}
